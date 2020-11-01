@@ -1,12 +1,16 @@
 /* Media query for desktop layout */
 
 @media only screen and (min-width: 769px) {
+    /* Style to create a fluid image */
+    img {
+        width: 100%;
+        height: auto;
+    }
 
     nav{
         align-items: center;
         background-color:#BAD4C0;
         display: flex;
-        font-family: poppins;
         justify-content: space-around;
         min-height: 8vh;
         padding: 0;
@@ -26,12 +30,13 @@
         text-decoration: none;
     }
 
+    /* Style for the nav-links */
     .nav-links{
         display:flex;
         justify-content: space-around;
-        width: 50%;
         padding-left: 0;
         padding-right: 1.5em;
+        width: 50%;
     }
 
     .nav-links li{
@@ -43,10 +48,10 @@
 
     .nav-links a{
         color: #4D5154;
-        text-decoration: none;
-        letter-spacing: 3px;
         display: inline-block;
+        letter-spacing: 3px;
         padding: 0.7em;
+        text-decoration: none;
     }
 
 	/* Style rules for pseudo-classes */ 
@@ -57,27 +62,26 @@
 	.nav-links a:hover {
         color: #4D5154;
         transform: scale(1.1);
-	}
-    
-    /* Style for the body specifies font family, margin, and padding */
+    }
+
+    /* Style for the body */
 	body {
         font-family: poppins;
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(to right, rgba(81, 107, 94, 0.6), rgba(0,0,0,0.6)), url(../images/main-background.png);
     }
     
     /* Style for the footer specifies font size, text alignment, and top margin */
     footer {
-        font-size: .70em;
-        text-align: center;
-        margin-top: 2em;
         color: #BAD4C0;
+        font-size: .70em;
+        margin-top: 2em;
+        text-align: center;
     }
 
     footer a {
-        text-decoration: none;
         color: #BAD4C0;
+        text-decoration: none;
     }
 
 }
