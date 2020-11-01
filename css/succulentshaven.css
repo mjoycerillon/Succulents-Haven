@@ -1,0 +1,83 @@
+/* Media query for desktop layout */
+
+@media only screen and (min-width: 769px) {
+
+    nav{
+        align-items: center;
+        background-color:#BAD4C0;
+        display: flex;
+        font-family: poppins;
+        justify-content: space-around;
+        min-height: 8vh;
+        padding: 0;
+    }
+    .logo{
+        color:#4D5154;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding-left: 2.5em;
+        text-transform: uppercase;
+        width: 50%;
+    }
+
+    .logo a {
+        color: #4D5154;
+        text-decoration: none;
+    }
+
+    .nav-links{
+        display:flex;
+        justify-content: space-around;
+        width: 50%;
+        padding-left: 0;
+        padding-right: 1.5em;
+    }
+
+    .nav-links li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+    }
+
+    .nav-links a{
+        color: #4D5154;
+        text-decoration: none;
+        letter-spacing: 3px;
+        display: inline-block;
+        padding: 0.7em;
+    }
+
+	/* Style rules for pseudo-classes */ 
+	.nav-links a:link {
+		color: #4D5154;	
+	}
+
+	.nav-links a:hover {
+        color: #4D5154;
+        transform: scale(1.1);
+	}
+    
+    /* Style for the body specifies font family, margin, and padding */
+	body {
+        font-family: poppins;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, rgba(81, 107, 94, 0.6), rgba(0,0,0,0.6)), url(../images/main-background.png);
+    }
+    
+    /* Style for the footer specifies font size, text alignment, and top margin */
+    footer {
+        font-size: .70em;
+        text-align: center;
+        margin-top: 2em;
+        color: #BAD4C0;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #BAD4C0;
+    }
+
+}
