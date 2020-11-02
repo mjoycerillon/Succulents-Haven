@@ -1,6 +1,11 @@
 /* Media query for desktop layout */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 895px) {
+    * {
+        color: black;
+        font-family: poppins;
+    }
+
     /* Style to create a fluid image */
     img {
         width: 100%;
@@ -9,16 +14,15 @@
 
     nav{
         align-items: center;
-        background-color:#BAD4C0;
+        background-color: white;
         display: flex;
         justify-content: space-around;
         min-height: 8vh;
         padding: 0;
     }
     .logo{
-        color:#4D5154;
+        color: black;
         font-size: 25px;
-        font-weight: bold;
         letter-spacing: 5px;
         padding-left: 2.5em;
         text-transform: uppercase;
@@ -26,13 +30,25 @@
     }
 
     .logo a {
-        color: #4D5154;
+        display: flex;
+        color: black;
         text-decoration: none;
+        text-transform: lowercase;
+    }
+
+    #logo-succulents{
+        font-weight: bold;
+    }
+
+    /* Style for the nav-links */
+    #logo-haven{
+        font-weight: lighter;
     }
 
     /* Style for the nav-links */
     .nav-links{
         display:flex;
+        font-size: large;
         justify-content: space-around;
         padding-left: 0;
         padding-right: 1.5em;
@@ -43,7 +59,6 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        width: 25%;
     }
 
     .nav-links a{
@@ -56,31 +71,30 @@
 
 	/* Style rules for pseudo-classes */ 
 	.nav-links a:link {
-		color: #4D5154;	
+		color: green;	
 	}
 
 	.nav-links a:hover {
-        color: #4D5154;
+        color: green;
         transform: scale(1.1);
     }
 
     /* Style for the body */
 	body {
-        font-family: poppins;
         margin: 0;
         padding: 0;
+        background-color: whitesmoke;
     }
     
     /* Style for the footer specifies font size, text alignment, and top margin */
     footer {
-        color: #BAD4C0;
         font-size: .70em;
+        font-weight: 300;
         margin-top: 2em;
         text-align: center;
     }
 
     footer a {
-        color: #BAD4C0;
         text-decoration: none;
     }
 
