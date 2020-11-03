@@ -62,7 +62,6 @@
     }
 
     .nav-links a{
-        color: #4D5154;
         display: inline-block;
         letter-spacing: 3px;
         padding: 0.7em;
@@ -70,12 +69,8 @@
     }
 
 	/* Style rules for pseudo-classes */ 
-	.nav-links a:link {
-		color: green;	
-	}
-
 	.nav-links a:hover {
-        color: green;
+        color: #B4DFD2;
         transform: scale(1.1);
     }
 
