@@ -6,8 +6,7 @@
         font-family: poppins;
     }
 
-    /* Style to create a fluid image */
-    img {
+    .responsiveImage {
         width: 100%;
         height: auto;
     }
@@ -20,16 +19,19 @@
         min-height: 8vh;
         padding: 0;
     }
+    /* Style for logo */
     .logo{
-        color: black;
+        align-items: center;
+        display: flex;
         font-size: 25px;
         letter-spacing: 5px;
-        padding-left: 2.5em;
+        padding-left: 1.25em;
         text-transform: uppercase;
         width: 50%;
     }
 
     .logo a {
+        align-items: center;
         display: flex;
         color: black;
         text-decoration: none;
@@ -38,17 +40,17 @@
 
     #logo-succulents{
         font-weight: bold;
+        padding-left: 0.5em;
     }
 
-    /* Style for the nav-links */
     #logo-haven{
         font-weight: lighter;
     }
 
-    /* Style for the nav-links */
+    /* Style for the navigation links */
     .nav-links{
         display:flex;
-        font-size: large;
+        font-size: medium;
         justify-content: space-around;
         padding-left: 0;
         padding-right: 1.5em;
@@ -68,20 +70,20 @@
         text-decoration: none;
     }
 
-	/* Style rules for pseudo-classes */ 
 	.nav-links a:hover {
-        color: #B4DFD2;
+        color: #8BB59A;
         transform: scale(1.1);
+        transition: .5s;
     }
 
     /* Style for the body */
 	body {
         margin: 0;
         padding: 0;
-        background-color: whitesmoke;
+        background-color: #EFEFEF;
     }
     
-    /* Style for the footer specifies font size, text alignment, and top margin */
+    /* Style for the footer */
     footer {
         font-size: .70em;
         font-weight: 300;
