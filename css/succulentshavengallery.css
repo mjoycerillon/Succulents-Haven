@@ -26,6 +26,7 @@
         font-size: 60px;
         font-family: poppins;
         width: fit-content;
+        width: -moz-max-content;
         color: white;
         background-color: #34A987;
         margin-left: auto;
