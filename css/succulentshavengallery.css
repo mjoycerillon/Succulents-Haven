@@ -1,10 +1,16 @@
 /* This stylesheet is created by: Ekta wadhwa(c0796396) */
 /* Styles for Mobile Layout */
-
+@media (min-width: 481px){
+    img{
+        max-width: 45%;
+    }
+}
 
 /* Styles for Tablet Layout */
-@media only screen and (min-width:790px) {
-
+@media only screen and (min-width:769px) {
+    img{
+        max-width: 30%;
+    }
 }
 
 /* Desktop Layout */
