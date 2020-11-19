@@ -19,6 +19,7 @@
         background-image: url('../images/gallery/image10.png');
         padding-bottom: 11%;
         padding-top: 1%;
+        width: 100%;
     }
     header h1{
         text-align: center;
