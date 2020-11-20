@@ -1,0 +1,104 @@
+/* Media query for Mobile layout */
+/* Style for the banner */
+
+#container {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+    min-width: 375px;
+}
+#banner {
+    background: url(../images/home/banner-img.png);
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    position: relative;
+    width: 100%;
+}
+
+#banner-area{
+    font-size: 30px;
+    left: 10%;
+    position: absolute;
+    top: 25%;
+}
+
+.banner-text {
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+#btnShop {
+    background-color: #34A987;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    padding: 0.3em 0.75em;
+}
+
+#btnShop:active {
+    transform: translateY(1px);
+}
+
+#btnContents span {
+    color: white;
+    font-weight: 500;
+}
+
+
+/* Media query for Tablet layout */
+@media only screen and (min-width: 760px) {
+    /* Style for the banner */
+    #banner {
+        height: 350px;
+    }
+
+    #banner-area{
+        font-size: 45px;
+    }
+
+    #btnShop {
+        font-size: 20px;
+    }
+
+    /* Style for the about us section */
+    #about-us {
+        display: flex;
+    }
+
+    #about-us-span {
+        font-size: 15px;
+    }
+
+    #about-us-p {
+        width: 50%;
+        padding: 3em;
+    }
+
+    .about-us-img {
+        align-items: center;
+        width: 50%;
+    }
+
+}
+
+/* Media query for desktop layout 895px*/
+@media only screen and (min-width: 1360px) {
+    /* Style for the banner section */
+     #banner {
+        height: 500px;
+    }
+
+    #banner-area{
+        font-size: 70px;
+    }
+
+    #btnShop {
+        font-size: 25px;
+    }
+
+}
