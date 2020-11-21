@@ -50,8 +50,27 @@ body {
 }
 
 
+/* Style for the about us section */
+#about-us {
+    background-color: #ADD6CA;
+    padding: 1em;
+    text-align: center;
+}
+
+#about-us-span {
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+#about-us-p {
+    font-weight: 300;
+    padding: 1em;
+    font-size: 15px;
+
+}
+
 /* Media query for Tablet layout */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 678px) {
     /* Style for the banner */
     #banner {
         height: 350px;
@@ -101,4 +120,26 @@ body {
         font-size: 25px;
     }
 
+    /* Style for the about us section */
+    #about-us {
+        display: flex;
+    }
+
+    #about-us-span {
+        font-size: 25px;
+    }
+
+    #about-us-p {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .about-us-img {
+        padding: 1em;
+        width: 30%;
+    }
+
+    .about-us-img img {
+        max-height: 100%;
+    }
 }
