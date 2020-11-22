@@ -1,22 +1,53 @@
 #indoor{
-    border-radius: 2%;
+    clear: both;
+    border-radius: 1em;
     margin: auto;
     background-color: lightgray;
     width: 90%;
 }
-#indoor h3{
+h3{
     padding-top: 1%;
     padding-left: 1%;
+}
+#category{
+    float: left;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 5%;
+    background-color: #EFEFEF;
+}
+#inventory{
+    float: right;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 5%;
+    background-color: #EFEFEF;
+}
+#cart{
+    display: inline-block;
+    background-color: #EFEFEF;
+    height: fit-content;
+    width: fit-content;
+    border-color: #EFEFEF;
+    border-radius: 50%;
+}
+#cart:hover{
+    background-color: #EFEFEF;
+    border-color: black;
+    border-radius: 50%;
+}
+label, select{
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    height: 40px;
+    width: fit-content;
 }
 #outdoor{
-    border-radius: 2%;
+    border-radius: 1em;
     margin: auto;
     background-color: lightgray;
     width: 90%;
-}
-#outdoor h3{
-    padding-top: 1%;
-    padding-left: 1%;
 }
 section{
     display: inline-block;
@@ -25,7 +56,7 @@ section{
     width:31%;
     height: auto;
 }
-section img{
+.shopimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,13 +66,39 @@ section img{
     border: gray;
     border-style: double;
 }
-section img:hover{
+.shopimage:hover{
     border: black;
     border-style: solid;
+    box-shadow: 5px 5px 5px;
 }
 section p{
     text-align: center;
 }
 #price{
-    color: darkgray;
+    display: inline;
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+    color: rgb(70, 61, 61);
+}
+.cartbutton{
+    background-color: white;
+    padding: 5px;
+    display: inline;
+    float: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-color: grey;
+    border-radius: 40%;
+}
+.cartbutton:hover{
+    background-color: white;
+    border-color: black;
+    border-radius: 40%;
+}
+.cartlogo{
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 40%;
 }
