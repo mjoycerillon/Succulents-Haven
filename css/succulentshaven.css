@@ -44,9 +44,8 @@ nav{
 
 /* Style for logo */
 .logo{
-    font-size: 20px;
-    letter-spacing: 4px;
-    /* width: 50%; */
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .nav-links {
@@ -81,9 +80,10 @@ body {
 
 /* Style for the footer */
 footer {
+    background-color: white;
     font-size: .70em;
     font-weight: 300;
-    margin-top: 2em;
+    margin: 2em 0 0 0;
     text-align: center;
 }
 
@@ -92,7 +92,11 @@ footer a {
 }
 
 /* Media query for Tablet layout */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 620px) {
+    .logo {
+        font-size: 22px;
+    }
+
     .nav-links {
         display: none;
     }
@@ -117,7 +121,6 @@ footer a {
     .nav-links{
         display: inline-flex;
         font-size: medium;
-        font-weight: 500;
         padding-left: 0;
         padding-right: 1.5em;
         width: 50%;
