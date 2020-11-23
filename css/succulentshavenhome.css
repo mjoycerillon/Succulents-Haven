@@ -69,6 +69,21 @@ body {
 
 }
 
+/* Styles for features */
+#featured {
+    padding: 2em;
+    display: block;
+    max-width: 100%;
+}
+
+#featured span {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.feat-hdr {
+    padding: 1em;
+}
 /* Media query for Tablet layout */
 @media only screen and (min-width: 678px) {
     /* Style for the banner */
