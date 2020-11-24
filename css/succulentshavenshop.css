@@ -16,12 +16,18 @@ h3{
     margin-left: 5%;
     background-color: #EFEFEF;
 }
+#category:hover{
+    font-weight: bold;
+}
 #inventory{
     float: right;
     height: fit-content;
     width: fit-content;
     margin-right: 5%;
     background-color: #EFEFEF;
+}
+#inventory:hover{
+    font-weight: bold;
 }
 #cart{
     display: inline-block;
@@ -73,6 +79,10 @@ section{
 }
 section p{
     text-align: center;
+}
+section p:hover{
+    text-align: center;
+    font-weight: bold;
 }
 #price{
     display: block;
