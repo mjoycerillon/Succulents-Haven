@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     background-size:cover;
-    background: #B6E2D3;
+    background:#ffffff;
 }
 .contact .content
 {
@@ -19,12 +19,13 @@
 {
     font-size: 45px;
     font-weight: 500;
-    color:#333333;
+    color:black;
+    text-align: center;
 }
 .contact .content p
 {
     font-weight:400;
-    color:#0C6980;
+    color:black;
     font-size: 20px;
 }
 .container
@@ -49,16 +50,16 @@
 .container .contactInfo .box .text
 {
     display: flex;
-    margin-left: 20px;
+    margin-left:40px;
     font-size: 15px;
-    color:#F4B9B8;
+    color:black;
     flex-direction: column;
     font-weight: 300;
 }
 .container .contactInfo .box .text h3
 {
     font-weight: 500;
-    color:#e2808a;
+    color:black;
     font-size: 20px;
 }
 .contactForm
@@ -68,7 +69,7 @@
     height: 60%;
     border-radius: 20px;
     margin: auto;
-    background:#FAE8E0;
+    background:#ffffff;
     box-sizing: border-box;
     padding: 30px 10px;
     color:#ffffff;
@@ -79,13 +80,8 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
-h2
-{
-    text-align: center;
-    color:#3D5B59
-
-}
- input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],input[type=date]
+ input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
+ input[type=date],input[list=countries]
 {
     width: 100%;
     box-sizing: border-box;
@@ -93,37 +89,42 @@ h2
     background:#ffffff;
     outline: none;
     border: none;
-    columns: #333333;
+    columns: #ffffff;;
     border-radius: 4px;
     font-weight: bold;
     border: 1px solid #cccccc;
     margin-top: 4px;
     margin-bottom: 5px;
+    
 }
-label
+::placeholder
+{
+    color:#333333
+}
+.contactform.label
 {
     padding-left: 10px;
 }
 button[type=submit]
 {
-    float: left;
+    float:left;
     color: black;
-    background-color:#EF768C;
+    background-color:#ffffff;
     box-sizing: border-box;
     padding: 5px;
-    width: 100px;
+    width: 400px;
     margin-top: 5px;
+    border-radius: 20px;
 }
 button[type=submit]:hover
 {
     background:#D8A7B1;
 
 }
-.map
+.container .contactInfo .box .text h3 img
 {
-    width: 100%;
-    height: auto;
-    flex: 50%;
+    margin: 5px;
+    
 }
 
  
