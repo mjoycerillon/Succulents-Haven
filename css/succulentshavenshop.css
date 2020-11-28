@@ -1,111 +1,209 @@
-#indoor{
-    clear: both;
-    border-radius: 1em;
-    margin: auto;
-    background-color: lightgray;
-    width: 90%;
+@media(min-width: 769px){
+    /* Styles for desktop layout.  */
+    #indoor{
+        clear: both;
+        border-radius: 1em;
+        margin: auto;
+        background-color: lightgray;
+        width: 90%;
+    }
+    h3{
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    #category{
+        float: left;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 5%;
+        background-color: #EFEFEF;
+    }
+    label:hover{
+        font-weight: bold;
+    }
+    #inventory{
+        float: right;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 5%;
+        background-color: #EFEFEF;
+    }
+    #cart{
+        display: inline-block;
+        background-color: #EFEFEF;
+        height: fit-content;
+        width: fit-content;
+        border-color: #EFEFEF;
+        border-radius: 50%;
+    }
+    #cart:hover{
+        background-color: #EFEFEF;
+        border-color: black;
+        border-radius: 50%;
+    }
+    label, select{
+        display: inline-block;
+        text-align: center;
+        padding-left: ;
+        height: 40px;
+        width: fit-content;
+    }
+    #outdoor{
+        border-radius: 1em;
+        margin: auto;
+        background-color: lightgray;
+        width: 90%;
+    }
+    section{
+        display: inline-block;
+        margin: 1%;
+        background-color: white;
+        width:31%;
+        height: auto;
+    }
+    .shopimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 350px;
+        height: 450px;
+        border: gray;
+        border-style: double;
+    }
+    .shopimage:hover{
+        border: black;
+        border-style: solid;
+        box-shadow: 5px 5px 5px;
+    }
+    section p{
+        text-align: center;
+    }
+    section p:hover{
+        text-align: center;
+        font-weight: bold;
+    }
+    #price{
+        display: block;
+        text-align: center;
+        color: rgb(70, 61, 61);
+    }
+    #price:hover{
+        text-align: center;
+        color: black;
+    }
+    .cartbutton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        height: 30px;
+        width: 90%;
+        color: white;
+        border: none;
+        background-color: green;
+    }
+    .cartbutton:hover{
+        background-color: darkgreen;
+    }
+    .cartlogo{
+        height: 35px;
+        width: 45px;
+        border-radius: 50%;
+    }
 }
-h3{
-    padding-top: 1%;
-    padding-left: 1%;
-}
-#category{
-    float: left;
-    height: fit-content;
-    width: fit-content;
-    margin-left: 5%;
-    background-color: #EFEFEF;
-}
-label:hover{
-    font-weight: bold;
-}
-#inventory{
-    float: right;
-    height: fit-content;
-    width: fit-content;
-    margin-right: 5%;
-    background-color: #EFEFEF;
-}
-#cart{
-    display: inline-block;
-    background-color: #EFEFEF;
-    height: fit-content;
-    width: fit-content;
-    border-color: #EFEFEF;
-    border-radius: 50%;
-}
-#cart:hover{
-    background-color: #EFEFEF;
-    border-color: black;
-    border-radius: 50%;
-}
-label, select{
-    display: inline-block;
-    text-align: center;
-    padding-left: ;
-    height: 40px;
-    width: fit-content;
-}
-#outdoor{
-    border-radius: 1em;
-    margin: auto;
-    background-color: lightgray;
-    width: 90%;
-}
-section{
-    display: inline-block;
-    margin: 1%;
-    background-color: white;
-    width:31%;
-    height: auto;
-}
-.shopimage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 350px;
-    height: 450px;
-    border: gray;
-    border-style: double;
-}
-.shopimage:hover{
-    border: black;
-    border-style: solid;
-    box-shadow: 5px 5px 5px;
-}
-section p{
-    text-align: center;
-}
-section p:hover{
-    text-align: center;
-    font-weight: bold;
-}
-#price{
-    display: block;
-    text-align: center;
-    color: rgb(70, 61, 61);
-}
-#price:hover{
-    text-align: center;
-    color: black;
-}
-.cartbutton{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    height: 30px;
-    width: 90%;
-    color: white;
-    border: none;
-    background-color: green;
-}
-.cartbutton:hover{
-    background-color: darkgreen;
-}
-.cartlogo{
-    height: 35px;
-    width: 45px;
-    border-radius: 50%;
+
+@media(min-width: 320px){
+    /* Styles for tablet layout. */
+    #indoor{
+        clear: both;
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgray;
+        width: 95%;
+    }
+    h3{
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    #category{
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        margin: 0.5em;
+        background-color: #EFEFEF;
+    }
+    #inventory{
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        margin: 0.5em;
+        background-color: #EFEFEF;
+    }
+    #cart{
+        display: inline-block;
+        background-color: #EFEFEF;
+        height: fit-content;
+        width: fit-content;
+        border-color: #EFEFEF;
+        border-radius: 50%;
+    }
+    label, select{
+        display: inline-block;
+        text-align: center;
+        height: 40px;
+        width: fit-content;
+    }
+    #outdoor{
+        border-radius: 1em;
+        margin: auto;
+        background-color: lightgray;
+        width: 95%;
+    }
+    section{
+        display: block;
+        margin-top: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5em;
+        padding: 0.1em;
+        background-color: white;
+        width:95%;
+        height: auto;
+    }
+    .shopimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5em;
+        width: 90%;
+        height: 70%;
+        border: black;
+        border-style: solid;
+    }
+    section p{
+        text-align: center;
+    }
+    #price{
+        display: block;
+        text-align: center;
+        color: rgb(70, 61, 61);
+    }
+    .cartbutton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        height: 30px;
+        width: 90%;
+        color: white;
+        border: none;
+        background-color: green;
+    }
+    .cartlogo{
+        height: 35px;
+        width: 45px;
+        border-radius: 50%;
+    }
 }
