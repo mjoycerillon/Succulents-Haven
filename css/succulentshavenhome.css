@@ -14,7 +14,7 @@ body {
     background: url(../images/home/banner-img.png);
     background-size: cover;
     background-position: center center;
-    height: 250px;
+    height: 350px;
     position: relative;
     width: 100%;
 }
@@ -23,7 +23,15 @@ body {
     font-size: 30px;
     left: 10%;
     position: absolute;
-    top: 25%;
+    top: 35%;
+}
+
+#banner-area a {
+    text-decoration: none;
+}
+
+.banner-text:first-child {
+    line-height: 20px;
 }
 
 .banner-text {
@@ -38,13 +46,14 @@ body {
     font-size: 15px;
     outline: none;
     padding: 0.3em 0.75em;
+    width: 85px;
 }
 
 #btnShop:active {
     transform: translateY(1px);
 }
 
-#btnContents span {
+#btnContents {
     color: white;
     font-weight: 500;
 }
@@ -57,16 +66,19 @@ body {
     text-align: center;
 }
 
-#about-us-span {
-    letter-spacing: 5px;
-    font-size: 18px;
+h1, h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 #about-us-p {
     font-weight: 300;
     padding: 1em;
     font-size: 15px;
-
 }
 
 /* Styles for features */
@@ -115,15 +127,12 @@ body {
 
     #btnShop {
         font-size: 20px;
+        width: 110px;
     }
 
     /* Style for the about us section */
     #about-us {
         display: flex;
-    }
-
-    #about-us-span {
-        font-size: 15px;
     }
 
     #about-us-p {
@@ -158,24 +167,25 @@ body {
 @media only screen and (min-width: 1360px) {
     /* Style for the banner section */
      #banner {
-        height: 500px;
+        height: 600px;
     }
 
     #banner-area{
         font-size: 70px;
     }
 
+    .banner-text:first-child {
+        line-height: 50px;
+    }
+
     #btnShop {
         font-size: 25px;
+        width: 140px;
     }
 
     /* Style for the about us section */
     #about-us {
         display: flex;
-    }
-
-    #about-us-span {
-        font-size: 25px;
     }
 
     #about-us-p {
@@ -199,6 +209,11 @@ body {
 
     .feat-img img {
         height: 240px;
+    }
+
+    .feat-img img:hover{
+        transform: scale(1.05);
+        transition: .5s;
     }
 
     .featrow {

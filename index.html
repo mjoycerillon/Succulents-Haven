@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Succulents Haven">
     <title>Succulents Haven | Home</title>
     <link rel="stylesheet" href="./css/succulentshaven.css">
     <link rel="stylesheet" href="./css/succulentshavenhome.css">
@@ -45,31 +46,20 @@
         </nav>
 
         <main>
-            <section id="banner">
+            <div id="banner">
                 <div id="banner-area">
                     <div class="banner-text">Best indoor</div>
                     <div class="banner-text">plants for you</div>
                     <a href="shop.html">
-                        <button id="btnShop" type="button">
-                            <div id="btnContents"><span>SHOP NOW</span></div>
-                        </button>
+                        <div id="btnShop" >
+                            <span id="btnContents">SHOP NOW</span>
+                        </div>
                     </a>
                 </div>
-            </section>
-            <section id="about-us">
-                <div id="about-us-p">
-                    <span id="about-us-span">About Us</span>
-                    <p>Getting the perfect succulent can complete and add accent to your home.</p>
-                    <p>We are your partner in picking the finest succulents that would fit your personality and choice as easy as one click away.</p>
-                    <p>We prioritize our client's satisfaction, so we at Succulents Haven, make sure to send your plants in its best shape from our haven to your home.</p>
-                </div>
-                <div class="about-us-img center-items">
-                    <span><img src="./images/home/about-us-img.png" alt="About Us Image" height="200px"></span>
-                </div>
-            </section>
+            </div>
             <section id="featured">
                 <div class="feat-hdr center-items">
-                    <span>FEATURED</span>
+                    <h1>FEATURED</h1>
                 </div>
                 <div class="feat-succulent">
                     <div class="featrow">
@@ -94,8 +84,26 @@
                     </div>
                 </div>
             </section>
+            <section id="about-us">
+                <div id="about-us-p">
+                    <h2>About Us</h2>
+                    <p>Getting the perfect succulent can complete and add accent to your home.</p>
+                    <p>We are your partner in picking the finest succulents that would fit your personality and choice as easy as one click away.</p>
+                    <p>We prioritize our client's satisfaction, so we at Succulents Haven, make sure to send your plants in its best shape from our haven to your home.</p>
+                </div>
+                <div class="about-us-img center-items">
+                    <span><img src="./images/home/about-us-img.png" alt="About Us Image" height="200"></span>
+                </div>
+            </section>
         </main>
         <footer>
+            <div class="footer-newsletter center-items">
+                <div class="sign-up">Sign Up for our Newsletter</div>
+                <form class="footer-form">
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
             <div>&copy; 2020 succulentshaven</div>
         </footer>
     </div>
