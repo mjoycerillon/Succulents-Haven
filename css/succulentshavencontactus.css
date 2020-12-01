@@ -1,91 +1,39 @@
-.contact
+* 
 {
-    position: relative;
-    height: 45%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-size:cover;
-    background:#ffffff;
-}
-.contact .content
-{
-    max-width: 800px;
-    text-align: center;
-}
-.contact .content h2
-{
-    font-size: 45px;
-    font-weight: 500;
-    color:black;
-    text-align: center;
-}
-.contact .content p
-{
-    font-weight:400;
-    color:black;
-    font-size: 20px;
-}
-.container
-{
-    width: 100%;
-    display: flex;
-    justify-content:right;
-    align-items:right;
-}
-.container .contactInfo
-{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.container .contactInfo .box
-{
-    position: relative;
-    padding: 2px 0;
-    display: flex;
-}
-.container .contactInfo .box .text
-{
-    display: flex;
-    margin-left:40px;
-    font-size: 15px;
-    color:black;
-    flex-direction: column;
-    font-weight: 300;
-}
-.container .contactInfo .box .text h3
-{
-    font-weight: 500;
-    color:black;
-    font-size: 20px;
-}
-.contactForm
-{
-    position: absolute;
-    width: 50%;
-    height: 60%;
-    border-radius: 20px;
-    margin: auto;
-    background:#ffffff;
     box-sizing: border-box;
-    padding: 30px 10px;
-    color:#ffffff;
-    margin-top: 50px;
-    right: 50px;
-    top: 220px;
-    padding-top: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
- input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
+body
+{
+    font-family:Verdana;
+    background-color: #ffffff;
+}
+h1
+{
+    background-color:#B6E2D3;
+    padding:15px;
+    text-align:center;
+    color: black;
+}
+.menu 
+{
+  float:left;
+  width:40%;
+  border-radius: 20px;
+  padding-top: 2px;
+  background-color: #ffffff;
+  padding-left: 10px;
+}
+h2
+{
+    text-align: left;
+    color: black;
+}
+input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
  input[type=date],input[list=countries]
 {
     width: 100%;
     box-sizing: border-box;
-    padding: 12px 5px;
+    padding: 12px 10px;
     background:#ffffff;
     outline: none;
     border: none;
@@ -101,9 +49,11 @@
 {
     color:#333333
 }
-.contactform.label
+label
 {
     padding-left: 10px;
+    color: black;
+    text-align:left;
 }
 button[type=submit]
 {
@@ -112,33 +62,50 @@ button[type=submit]
     background-color:#ffffff;
     box-sizing: border-box;
     padding: 5px;
-    width: 400px;
+    width: 70%;
     margin-top: 5px;
     border-radius: 20px;
 }
 button[type=submit]:hover
 {
     background:#D8A7B1;
-
 }
-.container .contactInfo .box .text h3 img
+
+.main {
+  float:left;
+  width:30%;
+  padding:0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.main .box .text
 {
-    margin: 5px;
+    display: flex;
+    margin-left:40px;
+    font-size: 15px;
+    color:black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.main .box .text h3
+{
+    font-weight: 500;
+    color:black;
+    font-size: 20px;
+}
     
+.right {
+  background-color:#ffffff;
+  float: left;
+  width:30%;
+  padding: 10px;
+  margin-top:7px;
 }
 
- 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
