@@ -38,13 +38,17 @@
 /* Style for nav */
 nav{
     background-color: white;
-    min-height: 8vh;
+    height: 80px;
     padding: 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
 }
 
 /* Style for logo */
 .logo{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -52,7 +56,7 @@ nav{
     position: absolute;
     width: 100%;
     background-color: whitesmoke;
-    top: 8vh;
+    top: 80px;
     left: 100%;
     text-align: center;
     transition: .5s;
@@ -74,7 +78,8 @@ nav{
 }
 
 /* Styles for burger */
-.burger div{
+.burger .line{
+    display: block;
 	width: 30px;
 	height: 5px;
 	background-color: black;
@@ -139,12 +144,17 @@ body {
     padding: 0;
 }
 
+/* Style for the main */
+main {
+    margin-top: 80px;
+}
+
 /* Style for the footer */
 footer {
     background-color: white;
     font-size: .70em;
     font-weight: 300;
-    margin: 2em 0 0 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -156,12 +166,61 @@ footer a {
     text-decoration: none;
 }
 
+.footer-form {
+    height: 50px;
+    padding: 2em;
+}
+
+.footer-form input {
+    background-color: white;
+    border: none;
+    height: 25px;
+    margin-right: -4px;
+    outline: none;
+    width: 200px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.footer-form button {
+    background-color: #34A987;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 27px;
+    font-size: small;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    width: 90px;
+}
+
+.footer-form button:hover{
+    background-color: black;
+    color: #EFEFEF;
+}
+
+.footer-newsletter {
+    background: url(../images/home/footer-newsletter.png);
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    height: 250px;
+    position: relative;
+}
+
+.sign-up {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
 /* Media query for Tablet layout */
 @media only screen and (min-width: 620px) {
     .logo {
         font-size: 22px;
     }
 }
+
 
 /* Media query for desktop layout */
 @media only screen and (min-width: 1024px) {
@@ -230,5 +289,27 @@ footer a {
         color: #34A987;
         transform: scale(1.1);
         transition: .5s;
+    }
+    
+    /* Style for the footer */
+    .footer-form input {
+        height: 52px;
+        width: 300px;
+        font-size: medium;
+    }
+
+    .footer-form button {
+        height: 54.5px;
+        font-size: medium;
+        width: 120px;
+    }
+    
+    .footer-newsletter {
+        height: 400px;
+        width: 100%;
+    }
+
+    .sign-up {
+        font-size: x-large;
     }
 }
