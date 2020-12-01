@@ -87,7 +87,7 @@
         width: 95%;
         color: white;
         border: none;
-        background-color: darkgreen;
+        background-color: #34A987;
     }
     .cartlogo{
         height: 35px;
@@ -95,7 +95,101 @@
         border-radius: 50%;
     }
 }
-
+@media(min-width: 481px){
+    /* Styles for mobile layout. */
+    #indoor{
+        clear: both;
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgray;
+        width: 95%;
+    }
+    h3{
+        padding-top: 1em;
+        text-align: center;
+    }
+    #category{
+        display: block;
+        float: left;
+        margin-left: 1.5em;
+        height: fit-content;
+        width: fit-content;
+        background-color: #EFEFEF;
+    }
+    #inventory{
+        display: block;
+        float: right;
+        margin-right: 1.5em;
+        height: fit-content;
+        width: fit-content;
+        background-color: #EFEFEF;
+    }
+    #cart{
+        display: inline-block;
+        background-color: #EFEFEF;
+        margin-left: 0.5em;
+        height: fit-content;
+        width: fit-content;
+        border-color: #EFEFEF;
+        border-radius: 50%;
+    }
+    label, select{
+        text-align: left;
+        height: 35px;
+        width: fit-content;
+    }
+    #outdoor{
+        border-radius: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgray;
+        width: 95%;
+    }
+    section{
+        display: inline-block;
+        margin: 0.2em;
+        padding: 0.1em;
+        background-color: white;
+        width: 48%;
+        height: 520px;
+    }
+    .shopimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5em;
+        width: 90%;
+        height: 70%;
+        border: black;
+        border-style: solid;
+    }
+    section p{
+        text-align: center;
+        font-weight: bold;
+    }
+    #price{
+        text-align: center;
+        font-weight: bold;
+        color: rgb(70, 61, 61);
+    }
+    .cartbutton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        height: 30px;
+        width: 95%;
+        color: white;
+        border: none;
+        background-color: #34A987;
+    }
+    .cartlogo{
+        height: 35px;
+        width: 45px;
+        border-radius: 50%;
+    }
+}
 @media(min-width: 769px){
     /* Styles for desktop layout.  */
     #indoor{
@@ -197,12 +291,10 @@
         margin-bottom: 1em;
         height: 30px;
         width: 90%;
+        cursor: pointer;
         color: white;
         border: none;
-        background-color: green;
-    }
-    .cartbutton:hover{
-        background-color: darkgreen;
+        background-color: #34A987;
     }
     .cartlogo{
         height: 35px;
