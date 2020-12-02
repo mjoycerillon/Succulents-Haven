@@ -5,7 +5,6 @@
         border-radius: 1em;
         margin-left: auto;
         margin-right: auto;
-        background-color: lightgray;
         width: 95%;
     }
     h3{
@@ -45,7 +44,6 @@
     #outdoor{
         border-radius: 1em;
         margin: auto;
-        background-color: lightgray;
         width: 95%;
     }
     section{
@@ -66,8 +64,6 @@
         margin-top: 0.5em;
         width: 95%;
         height: 70%;
-        border: black;
-        border-style: solid;
     }
     section p{
         text-align: center;
@@ -102,7 +98,6 @@
         border-radius: 1em;
         margin-left: auto;
         margin-right: auto;
-        background-color: lightgray;
         width: 95%;
     }
     h3{
@@ -127,11 +122,11 @@
     }
     #cart{
         display: inline-block;
-        background-color: #EFEFEF;
+        background-color: white;
         margin-left: 0.5em;
         height: fit-content;
         width: fit-content;
-        border-color: #EFEFEF;
+        border-color: white;
         border-radius: 50%;
     }
     label, select{
@@ -143,15 +138,14 @@
         border-radius: 1em;
         margin-left: auto;
         margin-right: auto;
-        background-color: lightgray;
         width: 95%;
     }
     section{
         display: inline-block;
         margin: 0.2em;
-        padding: 0.1em;
+        /* padding: 0.1em; */
         background-color: white;
-        width: 48%;
+        width: 45%;
         height: 520px;
     }
     .shopimage{
@@ -160,9 +154,7 @@
         margin-right: auto;
         margin-top: 0.5em;
         width: 90%;
-        height: 70%;
-        border: black;
-        border-style: solid;
+        height: auto;
     }
     section p{
         text-align: center;
@@ -196,7 +188,6 @@
         clear: both;
         border-radius: 1em;
         margin: auto;
-        background-color: lightgray;
         width: 90%;
     }
     h3{
@@ -236,14 +227,12 @@
     label, select{
         display: inline-block;
         text-align: center;
-        padding-left: ;
         height: 40px;
         width: fit-content;
     }
     #outdoor{
         border-radius: 1em;
         margin: auto;
-        background-color: lightgray;
         width: 90%;
     }
     section{
@@ -259,14 +248,11 @@
         margin-right: auto;
         margin-top: 5%;
         width: 90%;
-        height: 70%;
-        border: gray;
-        border-style: double;
+        height: auto;
     }
     .shopimage:hover{
-        border: black;
-        border-style: solid;
-        box-shadow: 5px 5px 5px;
+        transform: scale(1.1);
+        transition: .5s;
     }
     section p{
         text-align: center;
