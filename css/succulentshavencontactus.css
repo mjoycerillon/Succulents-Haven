@@ -2,10 +2,18 @@
 {
     box-sizing: border-box;
 }
+@media only screen and (max-width:620px)
+ {
+    /* For mobile phones: */
+    .menu, .right  
+    {
+      width:100%;
+    }
+  }
 body
 {
-    font-family:Verdana;
-    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
 }
 h1
 {
@@ -17,23 +25,23 @@ h1
 .menu 
 {
   float:left;
-  width:40%;
+  width:50%;
   border-radius: 20px;
   padding-top: 2px;
-  background-color: #ffffff;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 h2
 {
     text-align: left;
     color: black;
+    padding-left: 10px;
 }
 input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
  input[type=date],input[list=countries]
 {
     width: 100%;
     box-sizing: border-box;
-    padding: 12px 10px;
+    padding: 12px 5px;
     background:#ffffff;
     outline: none;
     border: none;
@@ -68,18 +76,19 @@ button[type=submit]
 }
 button[type=submit]:hover
 {
-    background:#D8A7B1;
+    background:#FAE8E0;
 }
-
-.main {
+.right 
+{
   float:left;
-  width:30%;
-  padding:0 20px;
-  display: flex;
+  width:50%;
   flex-direction: column;
-  background-color: #ffffff;
+  float: left;
+  padding: 30px;
+  margin-top:7px;
+  padding-left:100px;
 }
-.main .box .text
+.right .box .text
 {
     display: flex;
     margin-left:40px;
@@ -88,24 +97,16 @@ button[type=submit]:hover
     flex-direction: column;
     font-weight: 300;
 }
-.main .box .text h3
+.right .box .text h3
 {
     font-weight: 500;
     color:black;
-    font-size: 20px;
+    font-size: 30px;
 }
-    
-.right {
-  background-color:#ffffff;
-  float: left;
-  width:30%;
-  padding: 10px;
-  margin-top:7px;
+.map
+{
+    padding: 10px 10px;
 }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
-  }
-}
+
+
