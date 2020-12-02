@@ -1,86 +1,42 @@
-.contact
+* 
 {
-    position: relative;
-    height: 45%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-size:cover;
-    background:#ffffff;
-}
-.contact .content
-{
-    max-width: 800px;
-    text-align: center;
-}
-.contact .content h2
-{
-    font-size: 45px;
-    font-weight: 500;
-    color:black;
-    text-align: center;
-}
-.contact .content p
-{
-    font-weight:400;
-    color:black;
-    font-size: 20px;
-}
-.container
-{
-    width: 100%;
-    display: flex;
-    justify-content:right;
-    align-items:right;
-}
-.container .contactInfo
-{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.container .contactInfo .box
-{
-    position: relative;
-    padding: 2px 0;
-    display: flex;
-}
-.container .contactInfo .box .text
-{
-    display: flex;
-    margin-left:40px;
-    font-size: 15px;
-    color:black;
-    flex-direction: column;
-    font-weight: 300;
-}
-.container .contactInfo .box .text h3
-{
-    font-weight: 500;
-    color:black;
-    font-size: 20px;
-}
-.contactForm
-{
-    position: absolute;
-    width: 50%;
-    height: 60%;
-    border-radius: 20px;
-    margin: auto;
-    background:#ffffff;
     box-sizing: border-box;
-    padding: 30px 10px;
-    color:#ffffff;
-    margin-top: 50px;
-    right: 50px;
-    top: 220px;
-    padding-top: 2px;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
- input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
+@media only screen and (max-width:620px)
+ {
+    /* For mobile phones: */
+    .menu, .right  
+    {
+      width:100%;
+    }
+  }
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
+}
+h1
+{
+    background-color:#B6E2D3;
+    padding:15px;
+    text-align:center;
+    color: black;
+}
+.menu 
+{
+  float:left;
+  width:50%;
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-left: 20px;
+}
+h2
+{
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+}
+input[type=text],input[type=email],input[type=number],input[type=date],textarea[name=message],
  input[type=date],input[list=countries]
 {
     width: 100%;
@@ -101,9 +57,11 @@
 {
     color:#333333
 }
-.contactform.label
+label
 {
     padding-left: 10px;
+    color: black;
+    text-align:left;
 }
 button[type=submit]
 {
@@ -112,33 +70,43 @@ button[type=submit]
     background-color:#ffffff;
     box-sizing: border-box;
     padding: 5px;
-    width: 400px;
+    width: 70%;
     margin-top: 5px;
     border-radius: 20px;
 }
 button[type=submit]:hover
 {
-    background:#D8A7B1;
-
+    background:#FAE8E0;
 }
-.container .contactInfo .box .text h3 img
+.right 
 {
-    margin: 5px;
-    
+  float:left;
+  width:50%;
+  flex-direction: column;
+  float: left;
+  padding: 30px;
+  margin-top:7px;
+  padding-left:100px;
 }
-
- 
-
-
-
-
- 
-
-
-
-
-
-
+.right .box .text
+{
+    display: flex;
+    margin-left:40px;
+    font-size: 15px;
+    color:black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.right .box .text h3
+{
+    font-weight: 500;
+    color:black;
+    font-size: 30px;
+}
+.map
+{
+    padding: 10px 10px;
+}
 
 
 

@@ -4,17 +4,18 @@ header{
     background-image: radial-gradient(rgba(0, 0, 0, 0.438), rgba(255, 255, 255, 0)), url('../images/gallery/Gallery-Banner.png');
     background-position: center center;
     background-size: cover;
-    height: 100px;
+    height: 250px;
 }
-h1{
-    text-align: center;
-    font-size: 30px;
+header h1{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 5px;
     color: white;
     margin: auto;
+    height: 250px;
     display: flex;
     justify-content: center;
-    align-items: center;   
-    height: 100px; 
+    align-items: center;  
 }
 
 .image-container {
@@ -25,49 +26,56 @@ h1{
 }
 
 .image-row {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-
+    flex-direction: column;
 }
 
 body{
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 main img{
-    width: 30%;
+    width: 100%;
+    height: auto;
 }
 
 
 /* Styles for Tablet Layout */
 @media only screen and (min-width:769px) {
     main img{
-        max-width: 30%;
+        width: 30%;
+    }
+    .image-row {
+        flex-direction: row;
+        width: 100%;
     }
 }
 
 /* Desktop Layout */
 @media only screen and (min-width:895px) {
     header {
-        height: 300px;
+        height: 350px;
     }
     header h1{
         font-size: 60px;
-        height: 300px;
+        height: 350px;
     }
     footer{
-        margin-top: 0.5%;
-        padding: 0.5%;
+        margin-top: 2em;
+        padding: 2em;
         text-align: center;
         background-color: lightgray;
     }
 
     main img{
-        padding: 0.3%;
+        padding: 1em;
         width: 30%;
     }
+
+
 
 }
 
