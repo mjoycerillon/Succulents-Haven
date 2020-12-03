@@ -234,7 +234,7 @@
         margin: 1.25%;
         background-color: white;
         width:30%;
-        height: 550px;
+        height: fit-content;
     }
     .shopimage{
         display: block;
