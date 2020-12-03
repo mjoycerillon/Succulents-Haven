@@ -52,7 +52,7 @@
         padding: 0.1em;
         background-color: white;
         width:95%;
-        height: auto;
+        height: fit-content;
     }
     .shopimage{
         display: block;
@@ -60,7 +60,7 @@
         margin-right: auto;
         margin-top: 0.5em;
         width: 95%;
-        height: 70%;
+        height: auto;
     }
     section p{
         text-align: center;
@@ -143,7 +143,7 @@
         /* padding: 0.1em; */
         background-color: white;
         width: 45%;
-        height: 520px;
+        height: fit-content;
     }
     .shopimage{
         display: block;
