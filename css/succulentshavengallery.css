@@ -63,12 +63,6 @@ main img{
         font-size: 60px;
         height: 350px;
     }
-    footer{
-        margin-top: 2em;
-        padding: 2em;
-        text-align: center;
-        background-color: lightgray;
-    }
 
     main img{
         padding: 1em;
