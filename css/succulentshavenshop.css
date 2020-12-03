@@ -3,8 +3,7 @@
     #indoor{
         clear: both;
         border-radius: 1em;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         width: 95%;
     }
     h3{
@@ -13,7 +12,6 @@
     }
     #category{
         display: block;
-        float: left;
         margin-left: 0.5em;
         height: fit-content;
         width: fit-content;
@@ -21,7 +19,6 @@
     }
     #inventory{
         display: block;
-        float: left;
         margin-left: 0.5em;
         height: fit-content;
         width: fit-content;
@@ -96,8 +93,7 @@
     #indoor{
         clear: both;
         border-radius: 1em;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         width: 95%;
     }
     h3{
@@ -142,7 +138,8 @@
     }
     section{
         display: inline-block;
-        margin: 0.2em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
         /* padding: 0.1em; */
         background-color: white;
         width: 45%;
@@ -200,9 +197,6 @@
         width: fit-content;
         margin-left: 5%;
         background-color: #EFEFEF;
-    }
-    label:hover{
-        font-weight: bold;
     }
     #inventory{
         float: right;
