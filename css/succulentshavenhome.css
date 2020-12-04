@@ -53,7 +53,7 @@ body {
     transform: translateY(1px);
 }
 
-#btnContents {
+.btnContents {
     color: white;
     font-weight: 500;
 }
@@ -91,6 +91,7 @@ h1 {
 #featured h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
+    text-align: center;
 }
 
 #featured span {
@@ -139,9 +140,9 @@ h1 {
 }
 
 #bestdeal img {
-    padding-right: 2em;
     height: 200px;
 }
+
 .btnContainer {
     width: 100%;
     margin: auto;
@@ -227,10 +228,6 @@ h1 {
         height: 230px;
     }
 
-    #bestdeal {
-        width: 100%;
-    }
-
     #bestdealcontainer {
         flex-direction: row;
         text-align: left;
@@ -249,6 +246,7 @@ h1 {
     }
     
     #bestdeal img {
+        padding-right: 2em;
         height: 250px;
     }
     
@@ -334,7 +332,6 @@ h1 {
     }
 
     #bestdeal {
-        width: 100%;
         padding: 3em;
     }
 
