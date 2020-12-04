@@ -1,23 +1,30 @@
-* 
-{
-    box-sizing: border-box;
-}
-
 body
 {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#EFEFEF;
+    background-color:whitesmoke;
 }
-h1
-{
-    background-color:#ADD6CA;
-    padding:15px;
-    text-align:center;
+
+header{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.438), rgba(255, 255, 255, 0)), url('../images/contactus/contactus-banner.png');
+    background-position: top center;
+    background-size: cover;
+    height: 350px;
+}
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
     font-weight: 500;
-    height: 150px;
+    letter-spacing: 5px;
+    color: white;
+    margin: auto;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+#container {
+    overflow: auto; 
+    width: 100%; 
 }
 .menu 
 {
@@ -36,10 +43,10 @@ input[type=text],input[type=email],input[type=number],input[type=date],textarea[
     width: 100%;
     box-sizing: border-box;
     padding: 12px 5px;
-    background:#ffffff;
+    background:white;
     outline: none;
     border: none;
-    columns: #ffffff;;
+    columns: white;;
     border-radius: 4px;
     font-weight: bold;
     border: 1px solid #cccccc;
@@ -102,13 +109,18 @@ button[type=submit]:hover
 
 /* Media query for Tablet and Desktop layout */
 @media only screen and (min-width: 768px) { 
+    #container {
+        display: flex;
+    }
+
     .menu 
     {
         float: left;
         width:50%;
-        border-radius: 20px;
-        padding-top: 2px;
+        /* border-radius: 20px; */
+        /* padding-top: 2px; */
         padding-left: 20px;
+        margin: unset;
     }
 
     .right 
@@ -116,8 +128,8 @@ button[type=submit]:hover
         width:50%;
         float: left;
         text-align: left;
-        padding: 30px;
-        margin-top:7px;
+        /* padding: 30px; */
+        /* margin-top:7px; */
         padding-left:100px;
     }
 
