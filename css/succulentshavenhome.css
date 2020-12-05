@@ -39,7 +39,7 @@ body {
     font-weight: 400;
 }
 
-#btnShop {
+.buttonHome {
     background-color: #34A987;
     border: none;
     cursor: pointer;
@@ -49,11 +49,11 @@ body {
     width: 85px;
 }
 
-#btnShop:active {
+.buttonHome:active {
     transform: translateY(1px);
 }
 
-#btnContents {
+.btnContents {
     color: white;
     font-weight: 500;
 }
@@ -88,6 +88,12 @@ h1 {
     max-width: 100%;
 }
 
+#featured h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
 #featured span {
     font-size: 25px;
     letter-spacing: 5px;
@@ -114,6 +120,62 @@ h1 {
     height: 180px;
 }
 
+#bestdeal {
+    background-color: white;
+    padding: 2em;
+}
+
+#bestdealcontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+#bestdeal h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    padding: 1em;
+}
+
+#bestdeal img {
+    height: 200px;
+}
+
+.btnContainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#offers {
+    background-color: white;
+    padding: 2em;
+}
+
+#offerscontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.offercolumn {
+    width: 100%;
+    margin: 1em;
+    text-align: center;
+}
+
+.offercolumn p {
+    font-size: 13px;
+}
+
+.offercolumn img {
+    height: 80px;
+}
+
 /* Media query for Tablet layout */
 @media only screen and (min-width: 678px) {
     /* Style for the banner */
@@ -125,7 +187,7 @@ h1 {
         font-size: 45px;
     }
 
-    #btnShop {
+    .buttonHome {
         font-size: 20px;
         width: 110px;
     }
@@ -145,6 +207,11 @@ h1 {
         width: 50%;
     }
 
+    #featured h1 {
+        font-size: 50px;
+    }
+    
+
     .feat-succulent {
         width: 100%;
         display: flex;
@@ -161,6 +228,49 @@ h1 {
         height: 230px;
     }
 
+    #bestdealcontainer {
+        flex-direction: row;
+        text-align: left;
+        width: 80%;
+    }
+
+    .btnContainer {
+        display: unset;
+        justify-content: unset;
+    }
+
+    #bestdeal h1 {
+        font-size: 28px;
+        line-height: 28px;
+        padding: 1em 0 0 0;
+    }
+    
+    #bestdeal img {
+        padding-right: 2em;
+        height: 250px;
+    }
+    
+    #bestdeal p {
+        padding-bottom: 1em;
+    }
+
+    #offers {
+        background-color: white;
+        padding: 2em;
+    }
+    
+    #offerscontainer {
+        flex-direction: row;
+        width: 90%;
+    }
+    .offercolumn p {
+        font-size: 18px;
+    }
+
+    .offercolumn img {
+        height: 100px;
+    }
+    
 }
 
 /* Media query for desktop layout 895px*/
@@ -178,7 +288,7 @@ h1 {
         line-height: 50px;
     }
 
-    #btnShop {
+    .buttonHome {
         font-size: 25px;
         width: 140px;
     }
@@ -192,6 +302,7 @@ h1 {
         width: 70%;
         font-size: 18px;
     }
+
 
     .about-us-img {
         padding: 1em;
@@ -218,5 +329,22 @@ h1 {
 
     .featrow {
         display: flex;
+    }
+
+    #bestdeal {
+        padding: 3em;
+    }
+
+    #bestdealcontainer {
+        width: 50%;
+    }
+
+    #bestdeal h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    
+    #bestdeal img {
+        height: 275px;
     }
 }

@@ -1,5 +1,26 @@
 @media(min-width: 320px){
     /* Styles for mobile layout. */
+    header {
+        background: radial-gradient(rgba(0, 0, 0, 0.438), rgba(255, 255, 255, 0)), url(../images/shop-banner.png);
+        background-size: cover;
+        background-position: center center;
+        height: 350px;
+        position: relative;
+        width: 100%;
+    }
+    
+    header h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        letter-spacing: 5px;
+        color: whitesmoke;
+        margin: auto;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
     #indoor{
         clear: both;
         border-radius: 1em;
