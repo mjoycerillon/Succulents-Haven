@@ -117,8 +117,6 @@ button[type=submit]:hover
     {
         float: left;
         width:50%;
-        /* border-radius: 20px; */
-        /* padding-top: 2px; */
         padding-left: 20px;
         margin: unset;
     }
@@ -128,8 +126,6 @@ button[type=submit]:hover
         width:50%;
         float: left;
         text-align: left;
-        /* padding: 30px; */
-        /* margin-top:7px; */
         padding-left:100px;
     }
 
