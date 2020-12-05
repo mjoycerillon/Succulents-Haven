@@ -164,7 +164,7 @@ h1 {
 
 .offercolumn {
     width: 100%;
-    margin: 1em;
+    margin: 1em 0 1em 0;
     text-align: center;
 }
 
@@ -263,6 +263,10 @@ h1 {
         flex-direction: row;
         width: 90%;
     }
+
+    .offercolumn {
+        margin: 1em;
+    }    
     .offercolumn p {
         font-size: 18px;
     }
